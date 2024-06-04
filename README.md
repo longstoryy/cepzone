@@ -6,7 +6,7 @@
 </p>
 
 # About The Project
-GreatKart is an eCommerce application built with Python Django Framework. Some of the features of this project includes custom user model, categories and products, Carts, Incrementing, Decrementing and removing car items, Unlimited Product image gallery, Orders, Payments, after-order functionalities such as reduce the quantify of sold products, send the order received email, clearing the cart, Order completion page as well as generating an invoice for the order. Also we have a Review and Rating system with the interactive rating stars that even allows you to rate a half-star rating. My account functionalities for the customer who can easily edit his profile, profile pictures, change his account password, and also manage his orders and much more. Finally hosted this application on AWS Elastic Beanstalk [Check Demo](http://djangogreatkart.com/)
+Cepzone is an eCommerce application built with Python Django Framework. Some of the features of this project includes custom user model, categories and products, Carts, Incrementing, Decrementing and removing car items, Unlimited Product image gallery, Orders, Payments, after-order functionalities such as reduce the quantify of sold products, send the order received email, clearing the cart, Order completion page as well as generating an invoice for the order. Also we have a Review and Rating system with the interactive rating stars that even allows you to rate a half-star rating. My account functionalities for the customer who can easily edit his profile, profile pictures, change his account password, and also manage his orders and much more. Finally hosted this application on AWS Elastic Beanstalk [Check Demo](http://djangogreatkart.com/)
 
 _Learn how to build these [complex functionalities from the scratch](https://www.udemy.com/course/django-ecommerce-project-based-course-python-django-web-development/?referralCode=BAD74EA99BCC2E331D13)_
 <p align="left">
@@ -17,8 +17,8 @@ _Learn how to build these [complex functionalities from the scratch](https://www
 
 # Setup Instructions
 
-1. Clone the repository `git clone https://github.com/dev-rathankumar/greatkart-pre-deploy.git`
-2. Navigrate to the working directory `cd greatkart-pre-deploy`
+1. Clone the repository `git clone https://github.com/longstoryy/cepzone.git`
+2. Navigrate to the working directory `cd cepzone`
 3. Open the project from the code editor `code .` or `atom .`
 4. Create virtual environment `python -m venv env`
 5. Activate the virtual environment `source env/Scripts/activate`
@@ -70,8 +70,8 @@ _Learn how to build these [complex functionalities from the scratch](https://www
 
 ## Contact Me
 <p align="left">
-  <a href="https://www.linkedin.com/in/rathan-kumar492"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:developer.rathan@gmail.com"><img alt="Gmail" title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/cephas-adjetey-57a88a290?trk=blended-typeahead"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:cephas.sowah@outlook.com"><img alt="Outlook" title="Outlook" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 ##
