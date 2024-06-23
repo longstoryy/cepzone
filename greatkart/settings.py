@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 from decouple import config
-
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
@@ -91,20 +91,12 @@ AUTH_USER_MODEL = 'accounts.Account'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 DATABASES = {
     'default': {
-<<<<<<< HEAD
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'bonmLSSvcMjXaWWJBNYWeBWYsUdROWCu',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '16473'
-=======
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
->>>>>>> 37c2d4f (Initial commit)
     }
 }
-
+DATABASES["default"] = dj_database_url.parse("postgresql://cepzone_django_render_user:XwmgfJoI3nc3DRinsUqnRkRpqZ91lDYW@dpg-cps5l5ij1k6c738i379g-a.oregon-postgres.render.com/cepzone_django_render")
+# 
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
